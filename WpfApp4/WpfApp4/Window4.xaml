@@ -1,0 +1,48 @@
+﻿<Window x:Class="WpfApp4.Window4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="Детали для автомобиля" Height="621.907" Width="800">
+    <Grid>
+        <Button Content="" HorizontalAlignment="Left" Height="164" Margin="36,24,0,0" VerticalAlignment="Top" Width="204">
+            <Button.Background>
+                <ImageBrush ImageSource="2016-Cadillac-CTS-V-V8LT4-003.jpg"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Двигатели" HorizontalAlignment="Left" Margin="78,202,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold"/>
+        <Button Content="" HorizontalAlignment="Left" Height="164" Margin="303,24,0,0" VerticalAlignment="Top" Width="204">
+            <Button.Background>
+                <ImageBrush ImageSource="88ba88cs-960.jpg"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Аккумуляторы " HorizontalAlignment="Left" Margin="320,202,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold"/>
+        <Button Content="" HorizontalAlignment="Left" Height="164" Margin="553,24,0,0" VerticalAlignment="Top" Width="204">
+            <Button.Background>
+                <ImageBrush ImageSource="SPORTOWY-FILTR-POWIETRZA-BMW-3-E46-325-328-SIMOTA.jpg"/>
+            </Button.Background>
+        </Button>
+        <Label Content="Воздушные фильтры" HorizontalAlignment="Left" Margin="553,202,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold"/>
+        <Button Content="" HorizontalAlignment="Left" Height="164" Margin="36,301,0,0" VerticalAlignment="Top" Width="204">
+            <Button.Background>
+                <ImageBrush ImageSource="5cf62d5s-960.jpg"/>
+            </Button.Background>
+        </Button>
+        <Label Content="масла в АКПП" HorizontalAlignment="Left" Margin="63,470,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold"/>
+        <Button Content="" HorizontalAlignment="Left" Height="164" Margin="303,301,0,0" VerticalAlignment="Top" Width="204">
+            <Button.Background>
+                <ImageBrush ImageSource="836_original.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="164" Margin="553,301,0,0" VerticalAlignment="Top" Width="204">
+            <Button.Background>
+                <ImageBrush ImageSource="17296534_antifriz-auto-express-ae0105.jpg"/>
+            </Button.Background>
+        </Button>
+        <Label Content="жидкости ГУР" HorizontalAlignment="Left" Margin="333,470,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold"/>
+        <Label Content="антифризы" HorizontalAlignment="Left" Margin="581,470,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="22" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
